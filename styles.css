@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Solitreo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Solitreo", sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+header {
+  text-align: center;
+}
+.pg-title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.cook-gif {
+  border: 10px solid snow;
+  border-radius: 10%;
+}
+
+.recipe-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10rem;
+    flex:1;
+    margin: 4rem 0 ;
+    flex:1;
+}
+
+.recipe-section  img{
+    width: 400px;
+    height: 300px;
+    border:10px solid #333;
+    border-radius: 10%;
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 0.5rem;
+   
+    
+}
+.recipe h2{
+    text-decoration: underline;
+    font-size: 2rem;
+    color:#333;
+}
+
+.recipe h3{
+    color: #333;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+@media (max-width : 1550px){
+    .recipe-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
